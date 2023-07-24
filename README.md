@@ -5,3 +5,4 @@
 - Triangle perimeter and area calculation (src/Ucgen.java)
 - Taximeter calculating (src/Taxi.java)
 - Area of the circle slice (src/Circle.java)
+- Body mass index (src/Health.java)
