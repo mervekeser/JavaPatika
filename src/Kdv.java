@@ -20,7 +20,7 @@ public class Kdv {
             System.out.println("KDV Tutarı:" + kdvTutar);
             System.out.println("KDV'siz Tutar:" + miktar);
         }
-        if(miktar>1000){
+        else if(miktar>1000){
             kdvliTutar = (kdvOran1 * miktar) + miktar;
             kdvTutar = kdvOran1 * miktar;
             System.out.println("KDV'li Tutarınız:" + kdvliTutar);
