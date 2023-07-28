@@ -7,3 +7,4 @@
 - Area of the circle slice (src/Circle.java)
 - Body mass index (src/Health.java)
 - Greengrocery Program (src/Shop.java)
+- Calculation Program (src/Calculate.java)
