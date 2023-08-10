@@ -10,3 +10,5 @@
 - Calculation Program (src/Calculate.java)
 - User Login (User/)
 - Exam Grade (Exam/)
+- Suggest an activity(Activity/)
+- Number sorting(Sorting/)
