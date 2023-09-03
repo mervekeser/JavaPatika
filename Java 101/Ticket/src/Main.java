@@ -7,11 +7,11 @@ public class Main {
 
         //take the data from user
         Scanner input = new Scanner(System.in);
-        System.out.print("Please enter the distance you will travel:");
+        System.out.print("Please enter the distance you will travel as km:");
         distance = input.nextInt();
         System.out.print("Please enter your age:");
         age = input.nextInt();
-        System.out.print("Please enter the travel type:");
+        System.out.print("Please enter the travel type(1 => One Way 2 => Round Trip:");
         travelType = input.nextInt();
 
         //Ticket prices on conditions such as age groups, travel type, and distance
