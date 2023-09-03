@@ -18,6 +18,7 @@
 - Sorting
 - Horoscope
 - Ticket price
+- Chinese zodiac
 #### Loops
 
 
