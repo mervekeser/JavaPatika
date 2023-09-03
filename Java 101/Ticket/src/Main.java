@@ -1,31 +1,75 @@
-/*
-Kullanıcıdan alınan değerler geçerli (mesafe ve yaş değerleri pozitif sayı, yolculuk tipi ise 1 veya 2) olmalıdır. Aksi takdirde kullanıcıya "Hatalı Veri Girdiniz !" şeklinde bir uyarı verilmelidir.
-Kişi 12 yaşından küçükse bilet fiyatı üzerinden %50 indirim uygulanır.
-Kişi 12-24 yaşları arasında ise bilet fiyatı üzerinden %10 indirim uygulanır.
-Kişi 65 yaşından büyük ise bilet fiyatı üzerinden %30 indirim uygulanır.
-Kişi "Yolculuk Tipini" gidiş dönüş seçmiş ise bilet fiyatı üzerinden %20 indirim uygulanır.
-
-Normal Tutar = Mesafe * 0.10 = 1500 * 0.10 = 150 TL
-Yaş İndirimi = Normal Tutar * Yaş İndirim Oranı = 150 * 0.10= 15 TL
-İndirimli Tutar = Normal Tutar – Yaş İndirimi = 150 – 15 = 135 TL
-Gidiş Dönüş Bilet İndirimi = İndirimli Tutar * 0.20 = 135 * 0.20 = 27 TL
-Toplam Tutar = (135-27)* 2 = 216 TL
-
- */
-
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args){
-        int number1 = (int)(System.currentTimeMillis() % 10);
+        //declare the variables
+        int distance, age, travelType;
+        double price, ageDiscount, discountPrice, roundTripPrice,totalPrice;
 
+        //take the data from user
         Scanner input = new Scanner(System.in);
+        System.out.print("Please enter the distance you will travel:");
+        distance = input.nextInt();
+        System.out.print("Please enter your age:");
+        age = input.nextInt();
+        System.out.print("Please enter the travel type:");
+        travelType = input.nextInt();
 
+        //Ticket prices on conditions such as age groups, travel type, and distance
+        price = distance * 0.10;
 
-
-
-
-
-
-
+        if(travelType == 1){
+            if(age < 12){
+                ageDiscount = price * 0.50;
+                discountPrice = price - ageDiscount;
+                totalPrice = discountPrice;
+                System.out.println("The ticket price you will pay:" + totalPrice);
+            }
+            else {
+                if (age >= 12 && age <= 24) {
+                    ageDiscount = price * 0.10;
+                    discountPrice = price - ageDiscount;
+                    totalPrice = discountPrice;
+                    System.out.println("The ticket price you will pay:" + totalPrice);
+                } else if (age > 65) {
+                    ageDiscount = price * 0.30;
+                    discountPrice = price - ageDiscount;
+                    totalPrice = discountPrice;
+                    System.out.println("The ticket price you will pay:" + totalPrice);
+                }
+                else{
+                    System.out.println("The ticket price you will pay:" + price);
+                }
+            }
+        }
+        else if(travelType == 2){
+            if(age < 12){
+                ageDiscount = price * 0.50;
+                discountPrice = price - ageDiscount;
+                roundTripPrice = discountPrice * 0.20;
+                totalPrice = (discountPrice - roundTripPrice) * 2;
+                System.out.println("The ticket price you will pay:" + totalPrice);
+            }
+            else if (age >= 12 && age <= 24) {
+                ageDiscount = price * 0.10;
+                discountPrice = price - ageDiscount;
+                roundTripPrice = discountPrice * 0.20;
+                totalPrice = (discountPrice - roundTripPrice) * 2;
+                System.out.println("The ticket price you will pay:" + totalPrice);
+            } else if (age > 65) {
+                ageDiscount = price * 0.30;
+                discountPrice = price - ageDiscount;
+                roundTripPrice = discountPrice * 0.20;
+                totalPrice = (discountPrice - roundTripPrice) * 2;
+                System.out.println("The ticket price you will pay:" + totalPrice);
+            }
+            else{
+                roundTripPrice = price * 0.20;
+                totalPrice = (price - roundTripPrice) * 2;
+                System.out.println("The ticket price you will pay:" + totalPrice);
+            }
+        }
+        else{
+            System.out.println("Please enter the travel type using a positive number");
+        }
     }
 }

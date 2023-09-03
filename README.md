@@ -17,7 +17,7 @@
 - Activity
 - Sorting
 - Horoscope
-
+- Ticket price
 #### Loops
 
 
