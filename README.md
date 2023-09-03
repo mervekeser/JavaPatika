@@ -1,6 +1,7 @@
-## Backend Development with Java from Patika Academy
-### Java Projects
+# Backend Development with Java from Patika Academy
+## Java Projects
 
+### Java 101 ---> Variables--Conditionals--Loops--Methods--Classes--Arrays--Other topics--Graduation project
 #### Variables
 - Exam
 - KDV
