@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Kdv {
+public class Main {
     public static void main(String[] args){
         //değişkenleri tanımla
         double kdvTutar, kdvliTutar, kdvOran, kdvOran1;
@@ -33,3 +33,4 @@ public class Kdv {
 
     }
 }
+

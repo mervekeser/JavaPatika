@@ -1,15 +1,35 @@
-## Java Projects
+## Backend Development with Java from Patika Academy
+### Java Projects
 
-- Grade point average (src/Main.java)
-- KDV tutarı hesaplayan program (src/Kdv.java)
-- Triangle perimeter and area calculation (src/Ucgen.java)
-- Taximeter calculating (src/Taxi.java)
-- Area of the circle slice (src/Circle.java)
-- Body mass index (src/Health.java)
-- Greengrocery Program (src/Shop.java)
-- Calculation Program (src/Calculate.java)
-- User Login (User/)
-- Exam Grade (Exam/)
-- Suggest an activity (Activity/)
-- Number sorting (Sorting/)
-- Horoscope (Horoscope/)
+#### Variables
+- Exam
+- KDV
+- Triangle
+- Taximeter
+- Circle Area
+- Body Mass Index
+- Shopping
+#### Conditionals
+- Calculate
+- User
+- Lesson Passing
+- Activity
+- Sorting
+- Horoscope
+
+#### Loops
+
+
+#### Methods
+
+
+#### Classes
+
+
+#### Arrays
+
+
+#### Other topics
+
+
+#### Graduation project
