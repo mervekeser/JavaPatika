@@ -19,6 +19,7 @@
 - Horoscope
 - Ticket price
 - Chinese zodiac
+- Leap year
 #### Loops
 
 
