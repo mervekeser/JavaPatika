@@ -21,7 +21,8 @@
 - Chinese zodiac
 - Leap year
 #### Loops
-
+- Even Number
+- Even Sum
 
 #### Methods
 
