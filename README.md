@@ -23,7 +23,7 @@
 #### Loops
 - Even Number
 - Even Sum
-
+- Powers of Number
 #### Methods
 
 
