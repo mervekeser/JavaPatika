@@ -25,6 +25,7 @@
 - Even Sum
 - Powers of Number
 - Combination
+- Exponent
 #### Methods
 
 
