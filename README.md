@@ -26,6 +26,7 @@
 - Powers of Number
 - Combination
 - Exponent
+- Digits
 #### Methods
 
 
