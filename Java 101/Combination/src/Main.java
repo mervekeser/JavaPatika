@@ -8,14 +8,17 @@ public class Main {
         System.out.print("Enter a (r!):");
         int r = input.nextInt();
 
-        int mainFact=1, subFact=1, result;
+        int mainFact=1, subFact=1, rFact=1,result;
         for(int i=1; i<=number; i++){
             mainFact *= i;
+        }
+        for(int i =1; i<=r; i++){
+            rFact *= i;
         }
         for(int i =1; i<=(number-r); i++){
             subFact *= i;
         }
-        result = mainFact / (r * subFact);
+        result = mainFact / (rFact * subFact);
         System.out.println(result);
     }
 }
