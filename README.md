@@ -27,6 +27,7 @@
 - Combination
 - Exponent
 - Digits
+- Harmonic
 #### Methods
 
 
