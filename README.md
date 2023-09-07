@@ -24,6 +24,7 @@
 - Even Number
 - Even Sum
 - Powers of Number
+- Combination
 #### Methods
 
 
