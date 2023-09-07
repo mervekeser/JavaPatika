@@ -6,11 +6,11 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number:");
         int number = input.nextInt();
-        int  kalan, result=0;
+        int  remainder, result=0;
 
         while(number!=0){
-            kalan = number % 10;
-            result += kalan;
+            remainder = number % 10;
+            result += remainder;
             number /= 10;
         }
         System.out.println(result);
