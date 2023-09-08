@@ -28,6 +28,7 @@
 - Exponent
 - Digits
 - Harmonic
+- Stars-Diamond
 #### Methods
 
 
