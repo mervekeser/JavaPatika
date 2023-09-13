@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATM Project/ATM Project.iml" filepath="$PROJECT_DIR$/ATM Project/ATM Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/Activity/Activity.iml" filepath="$PROJECT_DIR$/Activity/Activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Body Mass Index/Body Mass Index.iml" filepath="$PROJECT_DIR$/Body Mass Index/Body Mass Index.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calculate/Calculate.iml" filepath="$PROJECT_DIR$/Calculate/Calculate.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/KDV/KDV.iml" filepath="$PROJECT_DIR$/KDV/KDV.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leap Year/Leap Year.iml" filepath="$PROJECT_DIR$/Leap Year/Leap Year.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson Passing/Lesson Passing.iml" filepath="$PROJECT_DIR$/Lesson Passing/Lesson Passing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Min-Max/Min-Max.iml" filepath="$PROJECT_DIR$/Min-Max/Min-Max.iml" />
       <module fileurl="file://$PROJECT_DIR$/Powers of Number/Powers of Number.iml" filepath="$PROJECT_DIR$/Powers of Number/Powers of Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shopping/Shopping.iml" filepath="$PROJECT_DIR$/Shopping/Shopping.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />

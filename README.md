@@ -29,6 +29,7 @@
 - Digits
 - Harmonic
 - Stars-Diamond
+- ATM Project
 #### Methods
 
 
