@@ -32,6 +32,7 @@
 - ATM Project
 - Ebob-Ekok
 - Min-Max
+- Perfect Number
 #### Methods
 
 
