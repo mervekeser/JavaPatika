@@ -31,6 +31,7 @@
 - Stars-Diamond
 - ATM Project
 - Ebob-Ekok
+- Min-Max
 #### Methods
 
 
