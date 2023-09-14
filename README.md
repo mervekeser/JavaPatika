@@ -33,6 +33,7 @@
 - Ebob-Ekok
 - Min-Max
 - Perfect Number
+- Inverted Triangle
 #### Methods
 
 
