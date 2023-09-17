@@ -34,6 +34,8 @@
 - Min-Max
 - Perfect Number
 - Inverted Triangle
+- Prime Numbers
+- Fibonacci
 #### Methods
 
 
